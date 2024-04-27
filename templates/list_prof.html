@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <h4>Список проффесий</h4>
+    {% if types in ["ol", "ul"] %}
+        <{{ types }}>
+            {% for index in list_prof %}
+                <li> {{ index }} </li>
+            {% endfor %}
+        </{{ types }}>
+    {% else %}
+        <div>Ошибка</div>
+    {% endif %}
+
+{% endblock %}

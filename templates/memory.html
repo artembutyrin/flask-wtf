@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    {% set user_list = data|random %}
+    <h5>{{ user_list.name }} {{ user_list.surname }}</h5>
+    <img src="static/{{ user_list.photo }}">
+    <div>{{ user_list.professions }}</div>
+
+{% endblock %}

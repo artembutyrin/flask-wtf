@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Artem",
+    "surname": "Butyrin",
+    "photo": "img/artem.png",
+    "professions": "инженер, биолог"
+  },
+  {
+    "name": "Andrey",
+    "surname": "Starkov",
+    "photo": "img/andrey.png",
+    "professions": "врач, доктор"
+  },
+  {
+    "name": "Ivan",
+    "surname": "Merenkov",
+    "photo": "img/ivan.png",
+    "professions": "повар, почтальон"
+  }
+]
